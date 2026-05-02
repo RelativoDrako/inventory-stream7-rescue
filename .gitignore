@@ -1,0 +1,29 @@
+# Runtime outputs
+output/
+logs/
+
+# Archives
+*.zip
+*.7z
+*.tar
+*.gz
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python caches if any helper scripts appear later
+__pycache__/
+*.pyc
+
+# IP evidence can be kept locally unless intentionally published
+shared/ip/evidence/
+
+# Local evidence / exports
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp

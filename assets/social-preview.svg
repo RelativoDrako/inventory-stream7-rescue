@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#0d1520"/>
+  <rect x="64" y="64" width="1152" height="512" rx="28" fill="#132030" stroke="#29415f" stroke-width="2"/>
+  <text x="96" y="168" fill="#eef4ff" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">inventory-stream7-rescue</text>
+  <text x="96" y="230" fill="#8fd3ff" font-family="Arial, Helvetica, sans-serif" font-size="28">Structured device audit, rescue, and install-path assessment</text>
+  <text x="96" y="268" fill="#8fd3ff" font-family="Arial, Helvetica, sans-serif" font-size="28">across Linux and Windows, with a specialized Stream 7 lane.</text>
+
+  <rect x="96" y="330" width="250" height="120" rx="18" fill="#182a40"/>
+  <text x="120" y="376" fill="#eef4ff" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Multiplatform</text>
+  <text x="120" y="412" fill="#cfe4ff" font-family="Arial, Helvetica, sans-serif" font-size="18">Linux audit and Windows</text>
+  <text x="120" y="438" fill="#cfe4ff" font-family="Arial, Helvetica, sans-serif" font-size="18">PowerShell 5 assessment</text>
+
+  <rect x="378" y="330" width="250" height="120" rx="18" fill="#182a40"/>
+  <text x="402" y="376" fill="#eef4ff" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Stream 7</text>
+  <text x="402" y="412" fill="#cfe4ff" font-family="Arial, Helvetica, sans-serif" font-size="18">Specialized low-resource</text>
+  <text x="402" y="438" fill="#cfe4ff" font-family="Arial, Helvetica, sans-serif" font-size="18">recovery and optimization</text>
+
+  <rect x="660" y="330" width="250" height="120" rx="18" fill="#182a40"/>
+  <text x="684" y="376" fill="#eef4ff" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Evidence-first</text>
+  <text x="684" y="412" fill="#cfe4ff" font-family="Arial, Helvetica, sans-serif" font-size="18">Inventory, assessment,</text>
+  <text x="684" y="438" fill="#cfe4ff" font-family="Arial, Helvetica, sans-serif" font-size="18">reporting, controlled action</text>
+
+  <rect x="942" y="330" width="178" height="120" rx="18" fill="#182a40"/>
+  <text x="966" y="376" fill="#eef4ff" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Secondary</text>
+  <text x="966" y="412" fill="#cfe4ff" font-family="Arial, Helvetica, sans-serif" font-size="18">public proof</text>
+
+  <text x="96" y="530" fill="#9fb3cb" font-family="Arial, Helvetica, sans-serif" font-size="20">Personal technical reference maintained by Daniel Franco</text>
+</svg>

@@ -1,0 +1,14 @@
+# Public surface
+/README.md @RelativoDrako
+/docs/** @RelativoDrako
+
+# Runtime/tooling
+/multiplatform/** @RelativoDrako
+/stream7/** @RelativoDrako
+/legacy/** @RelativoDrako
+/shared/** @RelativoDrako
+/deploy.ps1 @RelativoDrako
+
+# Workflow governance
+/.github/workflows/** @RelativoDrako
+/.github/CODEOWNERS @RelativoDrako

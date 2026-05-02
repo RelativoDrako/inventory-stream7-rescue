@@ -1,0 +1,6 @@
+Coloca aquí:
+- firmware-realtek_20230210-5_all.deb
+- firmware-misc-nonfree_20230210-5_all.deb
+- firmware-linux-nonfree_20230210-5_all.deb
+- intel-microcode_3.20251111.1~deb12u1_i386.deb
+- intel-microcode_3.20251111.1~deb12u1_amd64.deb
