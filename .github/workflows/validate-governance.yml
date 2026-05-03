@@ -1,0 +1,47 @@
+# GENERATED FILE - do not edit manually
+name: Governance Validation
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  isr-readme-scope-check:
+    name: isr-readme-scope-check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run isr-readme-scope-check
+        shell: pwsh
+        run: .\governance\templates\validators\readme-lint.ps1 -RepoRoot ${{ github.workspace }} -RequiredHeadingsJson '["Repository value","Typical use cases"]'
+  isr-links-check:
+    name: isr-links-check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run isr-links-check
+        shell: pwsh
+        run: .\governance\templates\validators\links-check.ps1 -RepoRoot ${{ github.workspace }} -TargetFilesJson '["README.md"]'
+  isr-lane-structure-check:
+    name: isr-lane-structure-check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run isr-lane-structure-check
+        shell: pwsh
+        run: .\governance\templates\validators\path-exists-check.ps1 -RepoRoot ${{ github.workspace }} -ExpectedPathsJson '["multiplatform","stream7"]'
+  isr-deploy-guard:
+    name: isr-deploy-guard
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run isr-deploy-guard
+        shell: pwsh
+        run: .\governance\templates\validators\artifact-presence-check.ps1 -RepoRoot ${{ github.workspace }} -ExpectedArtifactsJson '["deploy.ps1"]'

@@ -1,14 +1,9 @@
-# Public surface
+# GENERATED FILE - do not edit manually
 /README.md @RelativoDrako
+/.github/workflows/** @RelativoDrako
+/.github/CODEOWNERS @RelativoDrako
 /docs/** @RelativoDrako
-
-# Runtime/tooling
 /multiplatform/** @RelativoDrako
 /stream7/** @RelativoDrako
 /legacy/** @RelativoDrako
 /shared/** @RelativoDrako
-/deploy.ps1 @RelativoDrako
-
-# Workflow governance
-/.github/workflows/** @RelativoDrako
-/.github/CODEOWNERS @RelativoDrako
