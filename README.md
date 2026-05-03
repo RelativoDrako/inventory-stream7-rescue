@@ -16,15 +16,13 @@ It is designed to help answer these questions before invasive changes:
 - What evidence should be preserved before making changes?
 
 ## Repository value
+This repository provides a structured, multiplatform inventory and rescue toolkit for device assessment, operational compatibility review, and constrained remediation support.
 
-This repository demonstrates:
-
-- agnostic hardware/software inventory across architectures
-- controlled rescue and assessment logic before disruptive actions
-- idempotent reporting flows
-- Linux and Windows operational recommendations
-- constrained technical judgment on low-resource devices
-- minimal IP-protection hygiene for public technical work
+## Typical use cases
+- Linux and Windows device inventory before intervention
+- Platform capability review before update or recovery
+- Stream 7 complementary rescue and diagnostic workflows
+- Evidence-oriented baseline collection for technical support
 
 ## Supported lanes
 

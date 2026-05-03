@@ -1,0 +1,25 @@
+{
+    "repo_name":  "inventory-stream7-rescue",
+    "repo_kind":  "isr",
+    "required_checks":  [
+                            "isr-readme-scope-check",
+                            "isr-links-check",
+                            "isr-lane-structure-check",
+                            "isr-deploy-guard"
+                        ],
+    "critical_paths":  [
+                           "README.md",
+                           "docs",
+                           "multiplatform",
+                           "stream7",
+                           ".github/workflows"
+                       ],
+    "public_surface_paths":  [
+                                 "README.md",
+                                 "docs",
+                                 "multiplatform",
+                                 "stream7",
+                                 "legacy",
+                                 "shared"
+                             ]
+}
