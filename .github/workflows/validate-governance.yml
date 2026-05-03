@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Run isr-readme-scope-check
         shell: pwsh
-        run: .\governance\templates\validators\readme-lint.ps1 -RepoRoot ${{ github.workspace }} -RequiredHeadingsJson '["Repository value","Typical use cases"]'
+        run: ./governance/templates/validators/readme-lint.ps1 -RepoRoot ${{ github.workspace }} -RequiredHeadingsJson '["Repository value","Typical use cases"]'
   isr-links-check:
     name: isr-links-check
     runs-on: ubuntu-latest
@@ -26,7 +26,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Run isr-links-check
         shell: pwsh
-        run: .\governance\templates\validators\links-check.ps1 -RepoRoot ${{ github.workspace }} -TargetFilesJson '["README.md"]'
+        run: ./governance/templates/validators/links-check.ps1 -RepoRoot ${{ github.workspace }} -TargetFilesJson '["README.md"]'
   isr-lane-structure-check:
     name: isr-lane-structure-check
     runs-on: ubuntu-latest
@@ -35,7 +35,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Run isr-lane-structure-check
         shell: pwsh
-        run: .\governance\templates\validators\path-exists-check.ps1 -RepoRoot ${{ github.workspace }} -ExpectedPathsJson '["multiplatform","stream7"]'
+        run: ./governance/templates/validators/path-exists-check.ps1 -RepoRoot ${{ github.workspace }} -ExpectedPathsJson '["multiplatform","stream7"]'
   isr-deploy-guard:
     name: isr-deploy-guard
     runs-on: ubuntu-latest
@@ -44,4 +44,4 @@ jobs:
         uses: actions/checkout@v4
       - name: Run isr-deploy-guard
         shell: pwsh
-        run: .\governance\templates\validators\artifact-presence-check.ps1 -RepoRoot ${{ github.workspace }} -ExpectedArtifactsJson '["deploy.ps1"]'
+        run: ./governance/templates/validators/artifact-presence-check.ps1 -RepoRoot ${{ github.workspace }} -ExpectedArtifactsJson '["deploy.ps1"]'
